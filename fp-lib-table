@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TUTU_TIE2023_FT")(type "KiCad")(uri "${KIPRJMOD}/TUTU_TIE2023_FT.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,88 @@
+(footprint "Coaxial FL-LP-040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1fc65943-c595-4201-a6ed-8b86e5796d96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Coaxial FL-LP-040"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f04ca8e-76c8-47a1-8a4d-b47cebc98292")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4836199-b023-4274-a24a-8aed50a55a98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "779af341-f6e6-4550-ac5c-001c48cda401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "55f20633-5746-42b7-acaa-be1070f744e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.1 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "72656ccc-361e-4e24-adff-a0329c7912eb")
+	)
+	(pad "2" smd rect
+		(at 1.45 -0.5)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ee604f5-4449-40a4-adf7-d2c7e7da74ce")
+	)
+	(pad "3" smd rect
+		(at -1.45 -0.5)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1c035c9-1772-4899-be5b-ed7fdcf951a7")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,82 @@
+(footprint "CPFX-217 Crystal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.35 -1.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e6f938b0-400f-43c2-86d9-6cedefd9e0f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CPFX-217 Crystal"
+		(at 0.35 -0.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4d6a495-1523-4a22-b9b2-7af5ee0a924a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2674bf6e-6433-4857-9344-66381129f102")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae66f40b-41cc-4273-b4c4-57a3a947a8cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.35 1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f87f004-11ba-4cc7-af25-09efda5dc8c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0.05)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bdced159-b923-4ddd-bcf7-9713bde00485")
+	)
+	(pad "2" smd rect
+		(at 1.25 0.05)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b46c9a0c-6e7f-4d09-a471-f089a4b0559e")
+	)
+	(embedded_fonts no)
+)
